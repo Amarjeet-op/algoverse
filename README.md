@@ -84,7 +84,7 @@ Features:
 
 ```bash
 # Clone the repository
-git clone 
+git clone https://github.com/Amarjeet-op/algoverse.git
 cd algoverse
 
 # Install dependencies
