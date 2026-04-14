@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc:*)",
+      "Bash(curl -s http://localhost:3000/sorting)",
+      "Bash(head -2 src/lib/store/*.ts src/pages/*.tsx)",
+      "Bash(curl -s http://localhost:3000/searching)",
+      "Bash(curl -s http://localhost:3000__TRACKED_VAR__)",
+      "Bash(npm run:*)",
+      "Bash(npx next:*)",
+      "Bash(taskkill //F //IM node.exe)",
+      "Bash(rm -rf \"C:\\\\Users\\\\AMARJEETANAND\\\\OneDrive - IBM\\\\Desktop\\\\test\\\\.next\")"
+    ]
+  }
+}

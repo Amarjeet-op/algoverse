@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ALGOVERSE ⚡
 
-## Getting Started
+### Premium Interactive Algorithm Visualizer
 
-First, run the development server:
+ALGOVERSE is a state-of-the-art web application designed to help developers and students visualize, understand, and master complex algorithms through beautiful real-time animations and step-by-step execution.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+![ALGOVERSE Dashboard Preview](https://github.com/user-attachments/assets/ae088998-3162-4217-a065-217992928373)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Vision
+Most algorithm visualizers are basic and functional. **ALGOVERSE** aims to provide a **SaaS-grade experience** with:
+- **Premium Aesthetics**: Smooth glassmorphism, vibrant neon accents, and fluid animations.
+- **Interactive Control**: Play, pause, step-forward, and step-backward through execution.
+- **Real-time Analysis**: Watch complexity markers and code highlighting as the algorithm runs.
+- **Customizable Data**: Adjust array sizes, speeds, and grid layouts on the fly.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📦 Modules
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### ⣿ Sorting
+Visualize how sorting algorithms organize data. Includes **Bubble Sort, Quick Sort, Merge Sort, Insertion Sort, Selection Sort, and Heap Sort**.
 
-## Learn More
+### ⟐ Searching
+Watch algorithms find elements in arrays using **Linear Search, Binary Search, Jump Search, and Interpolation Search**.
 
-To learn more about Next.js, take a look at the following resources:
+### ⌘ Recursion
+See recursive calls unfold as visual trees. Includes **Fibonacci sequence, Factorials, Tower of Hanoi, and the N-Queens problem**.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### ⊞ Pathfinding
+Explore how algorithms navigate grids. Draw walls and watch **Dijkstra, A*, BFS, and DFS** find the shortest path.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### ◎ Maze Solver
+Generate complex mazes using **Recursive Backtracking** and solve them using various traversal algorithms.
 
-## Deploy on Vercel
+## 🛠️ Tech Stack
+- **Framework**: [Next.js 14/15](https://nextjs.org/) (App Router)
+- **Styling**: Vanilla CSS with Design Tokens & Glassmorphism
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **State Management**: [Zustand](https://zustand-demo.pmnd.rs/)
+- **Animations**: CSS Transitions & Keyframes
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🏁 Getting Started
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Prerequisites
+- Node.js 18.x or later
+- npm or pnpm
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/algoverse.git
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+4. Open [http://localhost:3000](http://localhost:3000)
+
+## 📄 License
+This project is open-source and available under the MIT License.
+
+---
+Built with ❤️ by the ALGOVERSE Team.
